@@ -11,6 +11,7 @@ fn greet(name: &str) -> String {
 
 mod chain;
 mod miner;
+mod database;
 
 fn main() {
     tauri::Builder::default()

@@ -1,6 +1,7 @@
 #![allow(unused_doc_comments)]
 
 use crate::chain::Block;
+use crate::database::Database;
 pub struct Miner {
 
 }
@@ -10,8 +11,8 @@ impl Miner {
         Block::new()
     }
 
-    pub fn create_new_block() {
-
+    fn create_new_block() {
+        
     }
 
     pub fn new() -> Miner {
