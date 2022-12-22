@@ -29,7 +29,6 @@ impl Transaction {
  * version: 1 (as of 2023)
  * magic_number: 0xC0041E00
  * hash_prev_block: 0
- * hash_next_block: 0
  * time: 0
  * size: 0
  * height: 0
@@ -39,7 +38,6 @@ pub struct Block {
     version: u8,
     magic_number: u32,
     hash_prev_block: u128,
-    hash_next_block: u128,
     hash: u128,
     time: u64,
     size: u64,
@@ -63,7 +61,6 @@ impl Block {
             version: 1u8, 
             magic_number: 0xC0041E00, 
             hash_prev_block: 0, 
-            hash_next_block: 0,
             hash: 0,
             time: 0, 
             size: 0, 
